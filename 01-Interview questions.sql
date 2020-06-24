@@ -1,4 +1,4 @@
--- https://data36.com/sql-interview-questions-tech-screening-data-analysts/
+-- Problem statements from https://data36.com/sql-interview-questions-tech-screening-data-analysts/
 -- NOTE: The page presents its own solutions. Here I present mine.
 
 -- -----------------------
