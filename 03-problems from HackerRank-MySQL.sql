@@ -7,7 +7,7 @@ Input Format
 
 The STATION table is described as follows:
 	Field	Type
-	ID		NUMBER
+	ID	NUMBER
 	CITY	VARCHAR(21)
 	STATE	VARCHAR(2)
 	LAT_N	NUMBER
@@ -25,7 +25,7 @@ Input Format
 
 The STATION table is described as follows:
 	Field	Type
-	ID		NUMBER
+	ID	NUMBER
 	CITY	VARCHAR(21)
 	STATE	VARCHAR(2)
 	LAT_N	NUMBER
@@ -40,7 +40,7 @@ Input Format
 
 The STATION table is described as follows:
 	Field	Type
-	ID		NUMBER
+	ID	NUMBER
 	CITY	VARCHAR(21)
 	STATE	VARCHAR(2)
 	LAT_N	NUMBER
@@ -55,7 +55,7 @@ Input Format
 
 The STATION table is described as follows:
 	Field	Type
-	ID		NUMBER
+	ID	NUMBER
 	CITY	VARCHAR(21)
 	STATE	VARCHAR(2)
 	LAT_N	NUMBER
@@ -74,7 +74,7 @@ Input Format
 
 The STATION table is described as follows:
 	Field	Type
-	ID		NUMBER
+	ID	NUMBER
 	CITY	VARCHAR(21)
 	STATE	VARCHAR(2)
 	LAT_N	NUMBER
@@ -91,7 +91,7 @@ Query the Name of any student in STUDENTS who scored higher than 75 Marks. Order
 
 Input Format
 	Column	Type
-	ID		Integer
+	ID	Integer
 	Name	String	
 	Marks	Integer
 	
@@ -133,9 +133,9 @@ The TRIANGLES table is described as follows:
 
 	________________
 	Column	Type
-	A		Integer
-	B		Integer
-	C		Integer
+	A	Integer
+	B	Integer
+	C	Integer
 	________________
 	
 Each row in the table denotes the lengths of each of a triangle's three sides.
@@ -243,8 +243,8 @@ The results of the second query are ascendingly ordered first by number of names
 You are given a table, BST, containing two columns: N and P, where N represents the value of a node in Binary Tree, and P is the parent of N.
 	________________
 	Column	Type
-	N		Integer
-	P		Integer
+	N	Integer
+	P	Integer
 	________________
 
 Write a query to find the node type of Binary Tree ordered by the value of the node. Output one of the following for each node:
@@ -311,7 +311,7 @@ where employee_id is an employee's ID number, name is their name, months is the 
 
 Sample Input
 	__________________________________________
-	employee_id		name		months	salary
+	employee_id		name		months		salary
 	12228			Rose		15		1968
 	33645			Angela		1		3443
 	45692			Frank		17		1608
@@ -321,7 +321,7 @@ Sample Input
 	78454			Bonnie		8		1771
 	83565			Michael		6		2017
 	98607			Tood		5		3396
-	99989			Joe			9		3573
+	99989			Joe		9		3573
 	__________________________________________
 	
 Sample Output:
@@ -330,7 +330,7 @@ Sample Output:
 Explanation:
 The table and earnings data is depicted in the following diagram:
 	____________________________________________________________
-	employee_id		name		months	salary		earnings
+	employee_id		name		months	salary			earnings
 	12228			Rose		15		1968		29520
 	33645			Angela		1		3443		3443
 	45692			Frank		17		1608		27336
@@ -340,7 +340,7 @@ The table and earnings data is depicted in the following diagram:
 	78454			Bonnie		8		1771		14168
 	83565			Michael		6		2017		12102
 	98607			Tood		5		3396		16980
-	99989			Joe			9		3573		32157
+	99989			Joe		9		3573		32157
 	____________________________________________________________
 	
 The maximum earnings value is 69952. The only employee with earnings = 69952 is Kimberly, so we print the maximum earnings value (69952) and a count of the number of employees who have earned $69952 (which is 1) as two space-separated values.
@@ -355,14 +355,14 @@ The maximum earnings value is 69952. The only employee with earnings = 69952 is 
 You are given two tables: Students and Grades. Students contains three columns ID, Name and Marks.
 	_________________
 	Column	Type
-	ID		Integer
+	ID	Integer
 	Name	String
 	Marks	Integer
 	_________________
 	
 Grades contains the following data:
 	______________________________
-	Grades	Min_Mark	Max_Mark
+	Grades		Min_Mark		Max_Mark
 	1		0			9
 	2		10			19	
 	3		20			29
@@ -404,7 +404,7 @@ Print "NULL"  as the name if the grade is less than 8.
 Explanation:
 Consider the following table with the grades assigned to the students:	
 	_________________________________
-	ID	Name		Marks	Grade
+	ID	Name		Marks		Grade
 	1	Julia		88		9
 	2	Samantha	68		7
 	3	Maria		99		10
